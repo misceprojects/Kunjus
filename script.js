@@ -547,7 +547,7 @@
   const resetPlaylistBtn = $("#resetPlaylistBtn");
   const ytFrame = $("#ytFrame");
 
-  const DEFAULT_PLAYLIST_ID = "PLoTn6R_eiyqdKUJDcZzNFGvaPPOw3QshW&si=qpOgmABLRrrTmy7-"; // You can replace later
+  const DEFAULT_PLAYLIST_ID = "https://music.youtube.com/playlist?list=PLoTn6R_eiyqdKUJDcZzNFGvaPPOw3QshW&si=6S2JaB1juabBXJXX"; // You can replace later
 
   function extractPlaylistId(str) {
     const s = (str || "").trim();
